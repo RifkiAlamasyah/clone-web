@@ -1,0 +1,351 @@
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  background-image: linear-gradient(#000000, #04619F);
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 15px;
+  font-size: 16px;
+}
+
+.navbar {
+  min-height: 100px;
+  transition: 0.5s ease-in-out;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.wape {
+  margin-top: 330px;
+}
+
+.hero-section h4 {
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  padding-top: 200px;
+  position: static;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content-1 > h1 {
+  letter-spacing: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
+
+.content-1-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 200px;
+  border-radius: 5%;
+}
+#nekoyama {
+  background-image: url("../assets/img/sena_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#yuta {
+  background-image: url("../assets/img/yuta_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#suika {
+  background-image: url("../assets/img/suika_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#tatsuya {
+  background-image: url("../assets/img/tatsuya_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#shia {
+  background-image: url("../assets/img/shia_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#cerys {
+  background-image: url("../assets/img/cerys_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#meru {
+  background-image: url("../assets/img/meru_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#keiya {
+  background-image: url("../assets/img/keiya_new.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#nekoyama:hover {
+  background-image: url("../assets/img/sena_new.webp");
+  filter: grayscale(0);
+}
+
+#suika:hover {
+  background-image: url("../assets/img/suika_new.webp");
+  filter: grayscale(0);
+}
+
+#yuta:hover {
+  background-image: url("../assets/img/yuta_new.webp");
+  filter: grayscale(0);
+}
+
+#shia:hover {
+  background-image: url("../assets/img/shia_new.webp");
+  filter: grayscale(0);
+}
+#cerys:hover {
+  background-image: url("../assets/img/cerys_new.webp");
+  filter: grayscale(0);
+}
+#tatsuya:hover {
+  background-image: url("../assets/img/tatsuya_new.webp");
+  filter: grayscale(0);
+}
+
+#meru:hover {
+  background-image: url("../assets/img/meru_new.webp");
+  filter: grayscale(0);
+}
+
+#keiya:hover {
+  background-image: url("../assets/img/keiya_new.webp");
+  filter: grayscale(0);
+}
+
+.content-1-tandaTanya {
+  text-align: center;
+  height: 500px;
+  border-radius: 5%;
+}
+
+.content-1-tandaTanya > h1 {
+  font-size: 80px;
+  line-height: 500px;
+}
+
+.content-1-info1 {
+  margin-right: 50px;
+}
+
+.content-1-info1 h1 {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* Animation */
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card {
+  background-color: rgba(245, 245, 245, 0);
+}
+.card-header,
+.card-footer {
+  opacity: 1;
+}
+
+.list-news {
+  height: 640px;
+  overflow-y: scroll;
+}
+.list-news::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .hero-section h4 {
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    position: relative;
+    top: -215px;
+    padding-top: 0;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Courier New", Courier, monospace;
+    z-index: 999;
+  }
+
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+/* Page About */
+
+.hero-section-about{
+  background-image: url('../assets/img/bg_about.webp');
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+
+}
+
+@media (min-width: 992px) {
+  .hero-section-about .container h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  
+}
+
+
+.deskripsi{
+  margin-top: 30px;
+}
+
+.deskripsi h1{
+  color: #fff;
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.deskripsi h4{
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* .about2img{
+  animation: MoveUpDown 3s linear infinite;
+  position: absolute;
+}
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+} */
+
+
+.content-2-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+
+#about1 {
+  background-image: url("../assets/img/about1.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#about2 {
+  background-image: url("../assets/img/about2.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#about3 {
+  background-image: url("../assets/img/about3.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#about4 {
+  background-image: url("../assets/img/about4.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#about5 {
+  background-image: url("../assets/img/about5.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#about6 {
+  background-image: url("../assets/img/about6.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+#about7 {
+  background-image: url("../assets/img/about7.webp");
+  filter: grayscale(5);
+  transition: 0.5s;
+}
+
+#about2:hover {
+  background-image: url("../assets/img/about2.webp");
+  filter: grayscale(0);
+}
+#about3:hover {
+  background-image: url("../assets/img/about3.webp");
+  filter: grayscale(0);
+}
+
+#about4:hover {
+  background-image: url("../assets/img/about4.webp");
+  filter: grayscale(0);
+}
+
+#about5:hover {
+  background-image: url("../assets/img/about5.webp");
+  filter: grayscale(0);
+}
+
+#about6:hover {
+  background-image: url("../assets/img/about6.webp");
+  filter: grayscale(0);
+}
+
+#about7:hover {
+  background-image: url("../assets/img/about7.webp");
+  filter: grayscale(0);
+}
+
+#about1:hover {
+  background-image: url("../assets/img/about1.webp");
+  filter: grayscale(0);
+}
+
