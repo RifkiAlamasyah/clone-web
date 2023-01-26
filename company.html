@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="shortcut icon" href="https://kevurugames.com/favicon.ico" type="image/x-icon" />
+    <!-- FAQ -->
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+        body {
+            color: #333;
+            background: #fcfcfc;
+            font-family: 'Raleway', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .faq-header {
+            font-size: 42px;
+            border-bottom: 1px dotted #ccc;
+            padding: 24px;
+        }
+
+        .faq-content {
+            margin: 0 auto;
+        }
+
+        .faq-question {
+            padding: 20px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .panel-title {
+            font-size: 24px;
+            width: 100%;
+            position: relative;
+            margin: 0;
+            padding: 10px 10px 0 48px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .panel-content {
+            font-size: 20px;
+            padding: 0px 14px;
+            margin: 0 40px;
+            height: 0;
+            overflow: hidden;
+            z-index: -1;
+            position: relative;
+            opacity: 0;
+            -webkit-transition: .4s ease;
+            -moz-transition: .4s ease;
+            -o-transition: .4s ease;
+            transition: .4s ease;
+        }
+
+        .panel:checked~.panel-content {
+            height: auto;
+            opacity: 1;
+            padding: 14px;
+        }
+
+        .plus {
+            position: absolute;
+            margin-left: 20px;
+            margin-top: 4px;
+            z-index: 5;
+            font-size: 42px;
+            line-height: 100%;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            -webkit-transition: .2s ease;
+            -moz-transition: .2s ease;
+            -o-transition: .2s ease;
+            transition: .2s ease;
+        }
+
+        .panel:checked~.plus {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .panel {
+            display: none;
+        }
+    </style>
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header id="nav-bar" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparant">
+            <div class="container">
+                <a href="https://kevurugames.com/" class="navbar-brand">
+                    <img src="assets/img/logo.svg" alt="Kevuru Games Logo">
+                    <!--<img src="/wp-content/themes/classy/dist/img/logo_ten_years.svg" style="width: 200px; margin-top: -30px;" alt="Kevuru Games Logo">-->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bolder font-s-1 ms-auto">
+                        <a class="nav-link" aria-current="page" href="index.html">SERVICE</a>
+                        <a class="nav-link mx-2" href="project.html">PROJECTS</a>
+                        <a class="nav-link mx-2" href="portofolio.html">OUR PORTFOLIO</a>
+                        <a class="nav-link mx-2 active mx-2" href="company.html">COMPANY</a>
+                        <a class="nav-link mx-2" href="contact_us.html">CONTACT US</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid one " id="banner3">
+        <section>
+            <div class="se1 container">
+                <h1 class="text-white">GAME DEVELOPMENT OUTSOURCING</h1>
+                <p class=" text-white fs-5">Kevuru Games is a leading game development outsourcing studio providing a
+                    wide range of services for full-cycle game development from scratch and for individual game tasks:
+                    creating 2D and 3D art and animation, modeling, game design, UX/UI design, testing, porting and
+                    gamification. Our strong team has experience in both casual projects and AAA titles from global
+                    publishers such as EA, Epic Games and Lucasfilm.</p>
+
+                <p class="text-white fs-5"><a class="text-white" href="">Home</a> > Game Development Outsourcing</p>
+            </div>
+
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="aqua" fill-opacity="1"
+                    d="M0,128L80,144C160,160,320,192,480,202.7C640,213,800,203,960,197.3C1120,192,1280,192,1360,192L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                </path>
+            </svg> -->
+        </section>
+
+    </div>
+    </section>
+    <!-- <img src="https://kevurugames.com/wp-content/themes/classy/dist/img/personages/personages-1.png" width="50%"
+        class="gobsay">
+    </div> -->
+    <div class="container-fluid two">
+        <section class="my-5 py-5 px-5">
+            <h1 class="fw-bolder"> <span class="text-primary">OUR GAME OUTSOURCING</span> DEVELOPMENT SERVICES</h1>
+            <div class="row">
+                <div class="col-md-8 fs-">
+                    <p class="mt-5">We provide full end-to-end support using the most advanced gaming solutions for
+                        project implementation at all stages of production and guarantee an impeccable result in
+                        accordance with the given idea, deadlines and budget.</p>
+                </div>
+                <div class="services-2d__list">
+                    <div class="row">
+                        <div class="col-12 col-md-6 service-2d-wrapper" style="border:5px dashed aqua;">
+                            <a href="" class="service-2d" style="color:black ; text-decoration:none;">
+                                <div class="service-2d__bg">
+                                    <div class="service-2d__icon"></div>
+                                </div>
+                                <h3 class="service-2d__title">
+                                    Game Art
+                                    <div class="service-2d__icon"></div>
+                                </h3>
+                                <p class="service-2d__text">The team of our game outsourcing company creates 2D and 3D
+                                    art in
+                                    any required style, from casual to AAA, ensuring that it perfectly matches the style
+                                    of the
+                                    project and guaranteeing a hassle-free workflow.</p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 service-2d-wrapper" style="border:5px dashed aqua;">
+                            <a href="" class="service-2d" style="color:black ; text-decoration:none;">
+                                <div class="service-2d__bg">
+                                    <div class="service-2d__icon"></div>
+                                </div>
+                                <h3 class="service-2d__title">
+                                    Game Development
+                                    <div class="service-2d__icon"></div>
+                                </h3>
+                                <p class="service-2d__text">Our video game outsourcing studio offers full-fledged
+                                    turnkey game
+                                    creation services with careful observance of all stages, from concept and game
+                                    design to
+                                    release and maintenance.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 service-2d-wrapper" style="border:5px dashed aqua;">
+                            <a href="" class="service-2d" style="color:black ; text-decoration:none;">
+                                <div class="service-2d__bg">
+                                    <div class="service-2d__icon"></div>
+                                </div>
+                                <h3 class="service-2d__title">
+                                    Game Animation
+                                    <div class="service-2d__icon"></div>
+                                </h3>
+                                <p class="service-2d__text">The outsourcing services we provide include the creation of
+                                    high-quality and colorful 2D and 3D animations using advanced technologies for a
+                                    wide range
+                                    of game genres and settings.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 service-2d-wrapper" style="border:5px dashed aqua;">
+                            <a href="" class="service-2d" style="color:black ; text-decoration:none;">
+                                <div class="service-2d__bg">
+                                    <div class="service-2d__icon"></div>
+                                </div>
+                                <h3 class="service-2d__title">
+                                    Quality Assurance
+                                    <div class="service-2d__icon"></div>
+                                </h3>
+                                <p class="service-2d__text">We professionally test games for different platforms and
+                                    carefully
+                                    study them for specific flaws. The QA team develops test documentation and chooses
+                                    the right
+                                    methodologies to make the game flawless.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="container-fluid there">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="pt-10">
+                        <h1 class="fw-bolder">COOPERATION MODELS</h1>
+                        <p>You can outsource game development based on several interaction models that will be tailored
+                            to your specific needs. You can choose one of the available models or combine them: we are
+                            ready to help you by choosing the model that best suits you.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://kevurugames.com/wp-content/uploads/2020/10/platforms-img.jpg" alt="" height="100%"
+                        width="110%">
+                </div>
+                <div class="col-md-4">
+                    <ul class="game-platforms__list pt-6">
+                        <li class="game-platforms__item">
+                            <h3 class="game-platforms__item-title"> <span style="color:cyan ;"># </span> Fixed Price
+                            </h3>
+                            <p class="game-platforms__item-text">We provide our outsourcing services at a fixed price,
+                                previously agreed and approved with the client and based on a detailed description of
+                                the project.
+                            </p>
+                        </li>
+                        <li class="game-platforms__item">
+                            <h3 class="game-platforms__item-title"><span style="color:cyan ;"># </span>Time and Material
+                                (T&amp;M)</h3>
+                            <p class="game-platforms__item-text">Under the T&amp;M model, work is carried out in short
+                                stages with payment for a specific time of work. This model is suitable for long-term
+                                projects with changing requirements.
+                            </p>
+                        </li>
+                        <li class="game-platforms__item">
+                            <h3 class="game-platforms__item-title"><span style="color:cyan ;"># </span> Outsourcing
+                                Managed Delivery</h3>
+                            <p class="game-platforms__item-text">We offer not only a team capable of providing
+                                professional services, but also a managed delivery to ensure the end-to-end provision of
+                                all services.
+                            </p>
+                        </li>
+                        <li class="game-platforms__item">
+                            <h3 class="game-platforms__item-title"> <span style="color:cyan ;"># </span>Dedicated Team
+                            </h3>
+                            <p class="game-platforms__item-text">A dedicated offshore team is offered as an extension of
+                                your own infrastructure with full support and access to all necessary resources and
+                                facilities.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="game-project__content ms-5 me-5">
+                        <h1 class="game-project__title pt-5">Our Game Projects</h1>
+                        <h3 class="game-project__subtitle">Undead Blocks</h3>
+                        <p class="game-project__text">Undead Blocks is the world's first multiplayer kill-to-earn zombie
+                            survival game on the Ethereum Network. Players must defend themselves against the hordes of
+                            zombies using various NFT weapons that can be upgraded to increase damage, ammo capacity,
+                            and accuracy.
+                        </p>
+                        <div class="game-project__icons aos-init aos-animate" data-aos-duration="1200"
+                            data-aos="fade-right">
+                            <img src="https://kevurugames.com/wp-content/uploads/2022/08/signs-2.png"
+                                alt="Game Development Outsourcing 3">
+                        </div>
+                        <div class="game-project__info">
+                            <div class="game-project__info-item work-type"><span>Work type: </span>
+                                <ul>
+                                    <li>Сo-development</li>
+                                    <li>Game art creation</li>
+                                </ul>
+                            </div>
+                            <div class="game-project__info-item game-type"><span>Game type: </span>P2E game</div>
+                            <div class="game-project__info-item technology"><span>Technology: </span>Web3, Unity</div>
+                            <div class="game-project__info-item platform"><span>Platform: </span>PC</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5"
+                    style="background-image: url('https://kevurugames.com/wp-content/uploads/2022/08/3bg.jpg'); background-size:cover;">
+
+                    <img src="https://kevurugames.com/wp-content/uploads/2022/08/laptop-1.png"
+                        alt="Game Development Outsourcing 4" width="70%" class="pt-10">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid four">
+            <div class="pt-7">
+                <h1 class="fs-1">
+                    <span style="color:aqua ;"> QUICK FACTS</span>
+                    ABOUT US
+                </h1>
+                <p class="pt-5 fs-5"> We are focused on providing game outsourcing services to create projects that
+                    stand out
+                    and stay in
+                    memory
+                    for a long time. Our game art and development specialists are highly experienced, which allows us to
+                    help
+                    global game companies with their popular games.</p>
+            </div>
+            <div class="row pt-6">
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="color:aqua; font-size: 55px;">300+</h1>
+                        </div>
+                        <div class="col-md-6 fw-bolder ">GAME ARTISTS AND DEVELOPERS</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="color:aqua; font-size: 55px; text-align: end;">10</h1>
+                        </div>
+                        <div class="col-md-6 fw-bolder ">YEARS OF EXPERIENCE</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="color:aqua; font-size: 55px; text-align: end;">3</h1>
+                        </div>
+                        <div class="col-md-6 fw-bolder ">YEARS AVERAGE PARTNERSHIP</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="color:aqua; font-size: 55px; text-align: end;">90%</h1>
+                        </div>
+                        <div class="col-md-6 fw-bolder ">REPEAT BUSINESS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-6">
+                <div class="row">
+                    <div class="col-md-3"><img
+                            src="https://kevurugames.com/wp-content/uploads/fly-images/219/epic-games-img-482x318.jpg"
+                            alt="Epic Games screen 56" title="epic games img 1" width="120%">
+                        <img width="50" height="57"
+                            src="https://kevurugames.com/wp-content/uploads/2020/09/epic-games-logo.png"
+                            class="attachment-full size-full" alt="Game Development Outsourcing 57"
+                            title="epic games logo 2" style="text-align:center ;">
+                    </div>
+                    <div class="col-md-3"><img
+                            src="https://kevurugames.com/wp-content/uploads/fly-images/221/foxnet-img-482x318.jpg"
+                            alt="Foxnext screen 58" title="foxnet img 3" width="120%">
+                        <img width="191" height="29"
+                            src="https://kevurugames.com/wp-content/uploads/2020/09/foxnet-logo.png"
+                            class="attachment-full size-full" alt="Game Development Outsourcing 59"
+                            title="foxnet logo 4">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://kevurugames.com/wp-content/uploads/fly-images/223/ea-img-482x318.jpg"
+                            alt="EA projects 60" title="EA 5" width="120%"><br>
+                        <img width="126" height="50"
+                            src="https://kevurugames.com/wp-content/uploads/2020/09/ea-logo.png"
+                            class="attachment-full size-full" alt="Game Development Outsourcing 61" title="ea logo 6">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://kevurugames.com/wp-content/uploads/fly-images/225/good-game-img-482x318.jpg"
+                            alt="Goodgame Studios screen 62" title="good game img 7" width="120%"><br>
+                        <img width="161" height="50"
+                            src="https://kevurugames.com/wp-content/uploads/2020/09/good-game-logo.png"
+                            class="attachment-full size-full" alt="Game Development Outsourcing 63"
+                            title="good game logo 8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid five">
+            <div class="pt-6">
+                <h1 class="benefits-2d__title"><span style="color:aqua ;">Our Fundamental Benefits</span> in Game
+                    Outsourcing</h1>
+                <p class="pt-5 fs-5">The key aspects of our approach to game development outsourcing are deep technical
+                    knowledge and a great focus on the desires and expectations of the players. We follow all the wishes
+                    of the client and at the same time offer innovative and relevant solutions to increase player
+                    engagement.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="benefits-2d__item-title">Customer-Oriented Approach</h3>
+                        <div class="benefits-2d__item-wreath">
+                            <img src="https://kevurugames.com/wp-content/uploads/2020/10/partnership.svg"
+                                alt="Game Development Outsourcing 64">
+                        </div>
+                    </div>
+                    <p class="benefits-2d__item-text">Customer satisfaction is our main goal, so we carefully
+                        analyze the scope of work and offer the best approach to the development of the project
+                        within the specified time. As a result, each project is unique and unlike any other.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="benefits-2d__item-title">Experienced Team</h3>
+                    <div class="benefits-2d__item-wreath">
+                        <img src="https://kevurugames.com/wp-content/uploads/2020/10/featured.svg" alt="featured 65">
+                    </div>
+                </div>
+                <p class="benefits-2d__item-text">Our professionals join forces to create the most memorable
+                    projects. Talented artists, designers, engineers and managers are well versed in the gaming
+                    industry and offer the best solutions to achieve the goals of customers.</p>
+                <div class="col-md-6">
+                    <h3 class="benefits-2d__item-title">Flexible Cooperation Terms</h3>
+                    <div class="benefits-2d__item-wreath">
+                        <img src="https://kevurugames.com/wp-content/uploads/2020/10/controls.svg"
+                            alt="Game Development Outsourcing 66">
+                    </div>
+                </div>
+                <p class="benefits-2d__item-text">Our game outsourcing company offers different models of
+                    cooperation and formats of both outsourcing and outstaffing so that clients can choose the
+                    best option for them and get the desired results within the established budget and time
+                    frame.
+                </p>
+                <div class="col-md-6">
+                    <h3 class="benefits-2d__item-title">Abreast of the Latest Trends</h3>
+                    <div class="benefits-2d__item-wreath">
+                        <img src="https://kevurugames.com/wp-content/uploads/2020/10/idea.svg"
+                            alt="Game Development Outsourcing 67">
+                    </div>
+                </div>
+                <p class="benefits-2d__item-text">The combination of extensive experience in game design, art,
+                    animation, a rich skill set and possession of the most advanced technical tools allows us to
+                    go beyond the limits and bring the most complex and intricate ideas to life with ease.
+                </p>
+            </div>
+    </div>
+    </section>
+
+    <section class="container-fluid six pt-6">
+        <h1 class="fw-bolder">FAQ</h1>
+        <div class="row pt-5">
+            <div class="col-md-7">
+
+
+                <div class="faq-content">
+                    <div class="faq-question">
+                        <input id="q1" type="checkbox" class="panel">
+                        <div class="plus">+</div>
+                        <label for="q1" class="panel-title">WHAT DOES IT MEAN TO OUTSOURCE A GAME?</label>
+                        <div class="panel-content">To outsource the game is to delegate game development tasks to third
+                            parties: studios, developers and artists.</div>
+                    </div>
+
+                    <div class="faq-question">
+                        <input id="q2" type="checkbox" class="panel">
+                        <div class="plus">+</div>
+                        <label for="q2" class="panel-title">HOW DO YOU OUTSOURCE GAME DEVELOPMENT?</label>
+                        <div class="panel-content">To start the outsourcing procedure, you need to provide the selected
+                            contractor with all available information on the game: the desired genre, setting, plot,
+                            characters, mechanics, and so on. If necessary, the outsourcing studio will give
+                            recommendations, correct or supplement this information and get to work.!</div>
+                    </div>
+
+                    <div class="faq-question">
+                        <input id="q3" type="checkbox" class="panel">
+                        <div class="plus">+</div>
+                        <label for="q3" class="panel-title">HOW MUCH DOES IT COST TO OUTSOURCE A GAME?</label>
+                        <div class="panel-content">The cost of gaming outsourcing varies depending on a variety of
+                            factors:
+                            <ol>
+                                <li>Complexity.</li>
+                                <li>Line-up.</li>
+                                <li>Location of the outsourcing studio.</li>
+                                <li>Required deadlines.</li>
+                                <li>Marketing costs.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img src="https://kevurugames.com/wp-content/themes/classy/dist/img/page/2d/faq-bg-knight.png"
+                    alt="Knight" width="90%" style="padding-bottom: 200px;">
+            </div>
+        </div>
+    </section>
+    </div>
+    <section>
+        <div id="uper-top-footer"></div>
+        <div class="container-fluid d-flex justify-content-end py-5 px-5" id="top-footer">
+            <div class="kartu px-5 py-5 my-5">
+                <div class="px-5 py-5">
+                    <h3 class="text-primary text-center">
+                        LET'S TALK ABOUT YOUR PROJECT
+                    </h3>
+                    <p class="text-white text-center">
+                        We are ready to discuss the details of your project and answer any
+                        of your questions: just fill out the form below.
+                    </p>
+                    <div class="d-flex justify-content-start-end my-4">
+                        <input type="text" placeholder="full name" class="inputan me-3 px-3" />
+                        <input type="email" placeholder="email" class="inputan px-3" />
+                    </div>
+                    <input type="email" placeholder="email" class="inputan my-4 px-3" />
+                    <input type="email" placeholder="email" class="inputan my-4 px-3" />
+                    <div class="d-flex align-items-center text-white">
+                        <input type="checkbox" />
+                        <p class="mt-3 ms-3">
+                            I agree to the terms of
+                            <a href="" class="text-primary">Privacy Policy</a>
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center text-white">
+                        <input type="checkbox" />
+                        <p class="mt-3 ms-3">
+                            I want to receive news and our portfolio updates once in a while
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="container-fluid px-5 py-5 bg-dark">
+        <div class="row py-5 px-5">
+            <div class="col-md-2">
+                <img src="assets/img/logo.svg" alt="logo kevuru" />
+                <h3 class="text-primary my-5">ADDRESS</h3>
+                <p class="text-white mb-2">
+                    Legal Address: 919 N Market Street, suite 950, Wilmington, DE, 19801
+                </p>
+                <p class="text-white mb-5">Kozatska Street, 122/4 Kyiv, 03022</p>
+                <h3 class="text-primary mb-3">CONTACT US</h3>
+                <p class="text-white mb-3">
+                    E-mail: <span class="text-primary">contact@kevurugames.com</span>
+                </p>
+                <p class="text-white fs-6">Phone: +380-98-067-14-98</p>
+            </div>
+            <div class="col-md-2 text-white mx-5 mt-3">
+                <h5 class="mb-5 text-primary">GAME ART</h5>
+                <p class="my-2">Concept Art</p>
+                <p class="my-2">Casual Aer</p>
+                <p class="my-2">Environment Design</p>
+                <p class="my-2">Caharater Design</p>
+                <p class="my-2">Hidden Object</p>
+                <p class="my-2">Slots Game Art</p>
+                <p class="my-2">AAA</p>
+                <p class="my-2">2D Art</p>
+                <p class="my-2">2D Character Design</p>
+                <p class="my-2">2D Environment Design</p>
+                <p class="my-2">3D Art</p>
+                <p class="my-2">3D Characters Design</p>
+                <p class="my-2">3D Game Modeling</p>
+                <p class="my-2">3D Sculpting</p>
+                <p class="my-2">UI/UX Design</p>
+                <p class="my-2">Illustration Services</p>
+            </div>
+            <div class="col-md-3 text-white mx-5 mt-3">
+                <h5 class="mb-5 text-primary">GAME DEVELOPMENT</h5>
+                <p class="my-2">Unity Development</p>
+                <p class="my-2">Unreal Development</p>
+                <p class="my-2">PC Game Development</p>
+                <p class="my-2">Mobile Game Development</p>
+                <p class="my-2">Hyper Casual Game Development</p>
+                <p class="my-2">Android Game Development</p>
+                <p class="my-2">iOS Game Development</p>
+                <p class="my-2">MMORPG Game Development</p>
+                <p class="my-2">3D Game Development</p>
+                <p class="my-2">Game Testing</p>
+                <p class="my-2">Game Porting</p>
+                <p class="my-2">Game Porting</p>
+                <p class="my-2">Gamification Services</p>
+                <p class="my-2">NFT Game Development</p>
+            </div>
+            <div class="col-md-2 text-white mx-5 mt-3">
+                <h5 class="mb-5 text-primary">ANIMATION</h5>
+                <p class="my-2">2D Animation</p>
+                <p class="my-2">3D Animation</p>
+                <p class="my-2">Motion Graphics Design</p>
+            </div>
+            <div class="col-md-3 text-white mx-5 mt-3">
+                <h5 class="mb-5 text-primary">OUTSTAFFING</h5>
+                <p class="my-2">Hire Game Developers</p>
+                <p class="my-2">Hire Unity Developers</p>
+                <p class="my-2">Hire Unreal Developers</p>
+                <p class="my-2">Hire 3D Artists</p>
+                <p class="my-2">Hire 3D Modelers</p>
+                <p class="my-2">Hire Game Designers</p>
+                <p class="my-2">Hire Character Designers</p>
+                <p class="my-2">Hire Concept Artists</p>
+                <p class="my-2">Hire 2D Artists</p>
+                <p class="my-2">Hire Illustrators</p>
+                <p class="my-2">Hire 2D Animators</p>
+                <p class="my-2">Hire 3D Animators</p>
+            </div>
+        </div>
+    </section>
+    <!-- end footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="assets/script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
