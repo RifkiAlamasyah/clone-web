@@ -1,0 +1,301 @@
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 15px;
+  font-size: 16px;
+}
+
+.navbar {
+    min-height: 130px;
+    transition: 0.5s ease-in-out;
+    
+
+}
+
+.font-s-1 {
+  font-size: 14px;
+}
+
+.one {
+  position: relative;
+}
+
+#banner {
+    background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp');
+    transition: 0.5s ease-in-out;
+   
+}
+#banner2 {
+  background-image: url("https://kevurugames.com/wp-content/uploads/2020/10/bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#banner3 {
+  background-image: url("https://kevurugames.com/wp-content/uploads/2020/11/Unity-Development-min.jpg");
+  background-size: cover;
+}
+
+#banner4 {
+  position: relative;
+  background-image: url("https://kevurugames.com/wp-content/uploads/2020/09/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#banner4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+      22.59% 164.65% at 102.23% 81.83%,
+      rgba(77, 198, 245, 0.077) 0,
+      rgba(77, 198, 245, 0) 100%
+    ),
+    linear-gradient(
+      286.43deg,
+      rgba(69, 162, 237, 0.25) -8.59%,
+      rgba(69, 162, 237, 0) 33.25%
+    ),
+    linear-gradient(
+      269.78deg,
+      rgba(134, 117, 179, 0.18) 12.52%,
+      rgba(148, 103, 234, 0) 46.51%
+    ),
+    linear-gradient(
+      275.31deg,
+      rgba(74, 57, 184, 0.19) 31.8%,
+      rgba(74, 57, 184, 0) 59.56%
+    ),
+    linear-gradient(
+      88.51deg,
+      rgba(0, 3, 16, 0.51) 49.04%,
+      rgba(0, 3, 16, 0.3162) 91.81%
+    );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gobsay {
+  margin-left: 100px;
+}
+
+.se1 {
+  padding-top: 150px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.se3 {
+  padding-top: 200px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.se2 {
+  width: 100%;
+}
+
+.banner__title_home {
+  color: #fff;
+  font-size: 60px;
+  max-width: 650px;
+  text-shadow: none;
+  letter-spacing: 0.015em;
+  line-height: 1.05;
+}
+
+.gobsay{
+   margin-left: 100px;
+   display: none;
+   
+   
+}
+.service2 {
+
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-image: url("https://kevurugames.com/wp-content/themes/classy/dist/img/page/home/about-bg.svg");
+}
+
+.cd {
+  border-radius: 0px 35px 0px 35px;
+}
+
+.client {
+  background-color: rgb(225, 245, 238);
+  height: 300px;
+}
+
+.client > h1 {
+  color: #ff8c00;
+  padding: 40px;
+  font-family: cursive;
+}
+
+.pt-10 {
+  padding-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pt-6 {
+  padding-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pt-7 {
+  padding-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pp-10 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.photo {
+  height: 250px;
+  width: 100%;
+  /* padding: 10px; */
+}
+
+.se4 {
+  background: #ebf8f9
+    linear-gradient(179.96deg, #fff 0.04%, hsla(0, 0%, 100%, 0) 43.8%);
+}
+
+.drone {
+  background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/page/portfolio/quadcopter2.png);
+  background-size: cover;
+  background-position: center;
+  width: 100vh;
+  position: relative;
+}
+
+.icons {
+  background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/page/2d/benefits-wreath.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75px;
+  width: 120px;
+}
+
+.icon {
+  /* width: 40px; */
+  height: 40px;
+}
+
+#uper-top-footer {
+  background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/footer-bg-top.png);
+  background-size: cover;
+  background-position: center left;
+  height: 29px;
+  margin-left: 1px;
+}
+
+#top-footer {
+  background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: top left;
+  /* height: 70%; */
+}
+
+.kartu {
+  border-radius: 20px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inputan {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 14px;
+  width: 100%;
+}
+
+.banner_images {
+  position: absolute;
+  opacity: 0.2;
+  z-index: 99;
+  right: 0;
+  transform: rotate(-15deg);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.scene__image {
+  width: 370px;
+}
+.scene__image_2 {
+  width: 450px;
+}
+
+
+
+@media (min-width: 992px) {
+    #banner {
+        background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp');
+       height: 600px;
+    }
+    .se1{
+        padding-top: 200px;
+        width: 50%;
+        padding-bottom: 50px;
+        margin-left: 35px;
+      
+    
+    }
+    
+    .se3{
+        padding-top: 200px;
+        width: 50%;
+        padding-bottom: 50px;
+    }
+    
+    .se2{
+        width: 50%;
+        margin-left: 30px;
+    }
+    
+    .gobsay{
+        position: absolute;
+        top: 80px;
+        right: 0;
+        margin: 0;
+        transition: opacity .5s ease-in;
+        display: block;
+    }
+
+    .gobsay + .gobsay {
+        opacity: 0;
+    }
+
+    #banner {
+        background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp');
+        height: 600px;
+    }
+
+}
